@@ -15,7 +15,6 @@ public class Steps {
 	@Given("the following animals: (.*)")
 	public void the_following_animals(List<String> animals) {
 		
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 
