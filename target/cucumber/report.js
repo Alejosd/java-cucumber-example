@@ -29,7 +29,7 @@ formatter.match({
   "location": "Steps.the_following_animals(String\u003e)"
 });
 formatter.result({
-  "duration": 126787544,
+  "duration": 10169040242,
   "status": "passed"
 });
 });
