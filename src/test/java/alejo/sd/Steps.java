@@ -27,8 +27,9 @@ public class Steps {
 		chromeOptions.put("mobileEmulation", mobileEmulation);
 		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
-		WebDriver driver = new ChromeDriver(capabilities);
+		//WebDriver driver = new ChromeDriver(capabilities);
 	
+		WebDriver driver = new FirefoxDriver(capabilities);
 
         driver.get("http://www.google.com");
         
