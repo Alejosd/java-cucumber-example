@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/resources/features/ejemplo.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("ejemplo.feature");
 formatter.feature({
   "line": 1,
   "name": "Welcome To The Jungle",
@@ -27,9 +27,4 @@ formatter.match({
     }
   ],
   "location": "Steps.the_following_animals(String\u003e)"
-});
-formatter.result({
-  "duration": 27952205738,
-  "status": "passed"
-});
 });
